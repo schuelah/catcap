@@ -1,0 +1,83 @@
+:root {
+  --light-green: #a1ca3c;
+  --dark-green: #76bc44;
+  --light-blue: #9bd3dd;
+  --medium-blue: #71c5e8;
+  --dark-blue: #00aec7;
+  --light-purple: #ca5699;
+  --medium-purple: #9e4679;
+  --dark-purple: #83286b;
+  --pink: #e64479;
+  --dark-gray: #55575a;
+  --white: #FFFFFF;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 0px;
+}
+
+.MuiToolbar-root {
+  margin: 0px;
+}
+
+text {
+  margin: 5px;
+  color: var(--dark-gray);
+}
+
+.MuiListItemButton-root {
+  color: var(--dark-blue);
+}
+
+.MuiToolbar-root {
+  color: var(--pink);
+  background: var(--dark-gray);
+}
+
+.MuiContainer-root {
+  margin: 5px;
+}
+
+.marginSpace {
+  margin: 10px;
+}
+
+.paperColor {
+  background-image: linear-gradient(135deg, #dbeef1, var(--light-blue), var(--medium-blue))
+}
+
+.cardHeader {
+  background-color: var(--medium-purple);
+  margin-right: 10px;
+  color: var(--white);
+  text-align: left;
+}
+
+.cardHeader2 {
+  background-color: var(--light-green);
+  color: var(--dark-gray);
+  margin-right: 10px;
+  text-align: left;
+}
+
+.button {
+  color: var(--light-blue);
+}
+
+.schedulers {
+  margin: 5px;
+  background-color: var(--light-blue);
+  padding: 2, 2, 2, 2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
