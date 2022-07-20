@@ -11,11 +11,6 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const body = req.body;
-  if (!body.name) {
-    return res.status(500).json({ msg: 'Task Name not supplied.' });
-  }
-  //res.status(200).json({ name: 'Ares' });
   let date = updateClient();
   res.status(200).json({ body: date });
 }
